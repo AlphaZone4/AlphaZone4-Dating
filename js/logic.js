@@ -53,8 +53,7 @@ function calc(){
   var n = num(data.username)+num(data.fave)+num(data.hate);
   var p = dates[n%(dates.length)];
   // render
-  $("#match").text("You are a "+(20+(n%80))+"% match!");
-  var h = "<img src='img/"+p.face+"' style='float:right' /><h2>"+p.name+"</h2>";
+  var h = "<img src='img/"+p.face+"' style='float:right' /><h2>"+p.name+" ("+(20+(n%80))+"% match)</h2>";
   h += "<p>"+parsed(p.description)+"</p>";
   $("#profilebody").html(h);
 }

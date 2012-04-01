@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>PlayStation Home Dating - Powered by AlphaZone4</title>
+<meta http-equiv="x-ua-compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<script type='text/javascript'>
+document.write(String.fromCharCode(60)+"l"+"ink rel='stylesheet' type='text/css' href='css/bootstrap.min.css?"+(new Date().getTime())+"' /"+">");
+document.write(String.fromCharCode(60)+"l"+"ink rel='stylesheet' type='text/css' href='css/style.css?"+(new Date().getTime())+"' /"+">");
+</script>
+</head>
+<body>
+<div class='header'>  
+  <img src='img/datingheader.png' />
+</div> 
+<div class="container">
+  <div class='well'>
+    <img src='img/heart.png' style='float:right' /><h1>Hey You!</h1>
+    <p>Yes, you! You've found the PlayStation Home Dating Service!</p>
+    <p>Unlike what other PlayStation Home sites claim, we offer the only true way of finding love in Home.</p>
+    <p>We offer such incredible firsts such as:<ul>
+      <li>First Home dating site</li>
+      <li>Oldest Home dating site</li>
+      <li>Longest running Home dating site</li>
+      <li>Best Home dating site</li>
+      <li>Most visited Home dating site</li>
+      <li>Only Home dating site</li>
+      <li>An stunning display of grammer skills</li>
+    </ul><p>
+    <p>We have an incredible #DIVZEROERROR#% success rate of matching our clients to their true loves. And I'm sure we can help <b>you</b> too!</p>
+    <p>Why, right now there are at least 3 potential partners in the <b><i>Earth (location approximated)</i></b> area!</p>
+    <p>If you're still not convinced, read some of our testimonials.</p>
+    <blockquote class='pull-right'>
+      <p>This is the bestest site in the entire world</p>
+      <small>A Clanger (loosely translated)</small>
+    </blockquote>
+    <blockquote>
+      <p>Will you leave me alone if I say it's good?</p>
+      <small>A friend</small>
+    </blockquote>
+    <blockquote class='pull-right'>
+      <p>Always do whatever's next.</p>
+      <small>George Carlin</small>
+    </blockquote>
+    <blockquote>
+      <p>Really? Asking for testimonials? That's low.</p>
+      <small>No longer a friend</small>
+    </blockquote>
+    <p>I think you'll agree there is no doubting our superior services. Fill in the form below to begin finding your true love!</p>
+    <form class="form-horizontal" id='form'>
+      <fieldset>
+        <legend>Let's find you a date! Tell me a little about yourself</legend>
+        <p>We'll start trying to find you your perfect match!</p>
+        <div class="control-group">
+          <label class="control-label" for="username">Your Name</label>
+          <div class="controls">
+            <input type="text" class="input-xlarge" name='username'>
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="username">My favourite thing</label>
+          <div class="controls">
+            <input type="text" class="input-xlarge" name='fave'>
+          </div>
+        </div>
+        <div class="control-group">
+          <label class="control-label" for="username">My least favourite thing</label>
+          <div class="controls">
+            <input type="text" class="input-xlarge" name='hate'>
+          </div>
+        </div>
+        <div class="form-actions">
+            <a class='btn btn-primary' id='submit'><i class='icon-heart icon-white'></i> Find love!</a>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+  <div class='footer'>
+    <div style='float:right'>
+      Powered by AlphaZone4 <a href='http://alphazone4.com' alt='AlphaZone4'><img alt='AlphaZone4' src='http://alphazone4.com/wp-content/themes/alphazone4.3/images/logo.png' /></a>
+    </div>
+  </div>
+</div>
+<script src='js/jquery-1.7.2.min.js' type="text/javascript"></script>
+<script src='js/bootstrap.min.js' type="text/javascript"></script>
+<script src='js/logic.js' type="text/javascript"></script>
+<!-- modals -->
+<div class="modal fade" style='display:none' id="loading">
+  <div class="modal-header">
+    <h3>Finding your true love</h3>
+  </div>
+  <div class="modal-body">
+    <p>Doing lots and lots of complicated things and doing lots of algorithms...</p>
+    <p>Please wait...</p>
+    <div class="progress progress-striped active">
+      <div class="bar" id='progress' style="width: 0;"></div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" style='display:none' id="profile">
+  <div class="modal-header">
+    <a class="close" data-dismiss="modal">×</a>
+    <h3>We have found your true love!</h3>
+  </div>
+  <div class="modal-body" id='profilebody'>
+  </div>
+  <div class="modal-footer"><div style='float:left'><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://dating.alphazone4.com" data-text="I just found my true PlayStation Home love. Thanks @AlphaZone4!" data-size="large">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div><div id='match'></div></div>
+</div>
+</body>
+</html>

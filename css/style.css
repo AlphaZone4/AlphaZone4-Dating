@@ -1,0 +1,12 @@
+body{
+  background-color:#3893DF;
+}
+
+.header{
+    background-image:URL(../img/fan.png?v=2);
+    width:800px;
+    height:250px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}

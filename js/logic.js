@@ -8,7 +8,7 @@ var dates = [
   {
     name: "Lara Corset",
     face: "bathing.png",
-    description: "She giggles at everything you say, specially when you discuss your vast knowledge of %fave%. She is always sporting the latest in Home fashion.<br />She used to be a fan of %hate% before you made her realise it was all so silly.<br />Fun fact: is actually a 47 year old man with a \"I love %name% tattoo\" on his leg."
+    description: "She giggles at everything you say, specially when you discuss your vast knowledge of %fave%. She is always sporting the latest in Home fashion.<br />She used to be a fan of %hate% before you made her realise it was all so silly.<br />Fun fact: is actually a 47 year old man with an \"I love %name%\" tattoo on his leg."
   },
   {
     name: "Blondie",
